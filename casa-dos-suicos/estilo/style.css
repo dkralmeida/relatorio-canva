@@ -1,0 +1,201 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*Boot CSS*/
+.center{
+	max-width: 1288px;
+	padding: 0 2%;
+	margin: 0 auto;	
+}
+
+.w33{
+	width: 33.3%;
+}
+
+.w50{
+	width: 50%;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+/*fim do Boot CSS*/
+
+/*estilização do site*/
+
+header{
+	padding: 20px 0;
+	background: red;
+}
+
+.mobile{
+	display: none;
+}
+
+nav.desktop ul{
+	position: relative;
+	top: 6px;
+	list-style-type: none; /*tirar as bolinhas*/
+
+}
+
+nav.desktop li {
+	font-weight: 300;
+	font-size: 15px;
+	font-weight: 500;
+	padding: 0 15px;
+	text-transform: uppercase;
+	display: inline-block; /*pra ficar uma ao lado da outra*/
+
+}
+
+nav.desktop a{
+	color: white;
+	text-decoration: none;
+}
+
+.btn-reservar{
+	background-color: #ffffff;
+	color: red;
+	padding: 5px 15px;
+}
+
+
+
+/*fim da estilização do site*/
+
+body{
+	background-color: #ffffff;
+}
+
+/*Galeria de fotos*/
+
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/*fim - galeria de fotos*/
+
+/*Perguntas frequentes*/
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+/* fim - perguntas frequentes */

@@ -1,0 +1,26 @@
+[1mdiff --git a/estilo.css b/estilo.css[m
+[1mindex bc67b7e..f43480b 100644[m
+[1m--- a/estilo.css[m
+[1m+++ b/estilo.css[m
+[36m@@ -1,3 +1,5 @@[m
+ body{[m
+ 	background-color: pink;[m
+[31m-}[m
+\ No newline at end of file[m
+[32m+[m	[32mcolor: green;[m
+[32m+[m[32m}[m
+[41m+[m
+[1mdiff --git a/index.php b/index.php[m
+[1mindex 1e99c63..3695de8 100644[m
+[1m--- a/index.php[m
+[1m+++ b/index.php[m
+[36m@@ -1,4 +1,7 @@[m
+ <html>[m
+ <head></head>[m
+[31m-<body>oiiee</body>[m
+[32m+[m[32m<body>oiiee[m
+[32m+[m
+[32m+[m[32m<?php echo "oi";?>[m
+[32m+[m[32m</body>[m
+ </html>[m
+\ No newline at end of file[m

@@ -1,0 +1,20 @@
+
+
+	input[type=file]{
+		display: none;
+	}
+
+	.arquivo{
+		display: block;/*para poder definir dimensão*/
+		cursor: pointer;
+		font-size: 17px;
+		/*margin: 20px auto;*/
+		width: 320px;
+		height: 40px;
+		background-color: #ab47bc;
+		color: white;
+		text-align: center;
+		line-height: 40px
+	}
+
+
